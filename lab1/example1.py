@@ -23,3 +23,9 @@ print(root1 , "," , root2)
 temperature_celcius = input("What is the temparature?")
 temperature_fahrenhait = (int(temperature_celcius)*1.8 + 32)
 print(temperature_fahrenhait)
+
+
+edge1 = input("What is the length of the first perpendicular edge?")
+edge2 = input("What is the length of the second perpendicular edge?")
+hypo = (int(edge1)**2 + int(edge2)**2)**0.5
+print(hypo)
