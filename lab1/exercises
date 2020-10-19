@@ -1,0 +1,6 @@
+language = "python3"
+run = "python lab1/example.py"
+animals = 10
+chickens = 6
+roosters = int.animal - int.chicken
+print(rooster)
