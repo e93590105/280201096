@@ -18,3 +18,8 @@ d = (b**2) - (4*a*c)
 root1 = (-b-d**0.5)/(2*a)
 root2 = (-b+d**0.5)/(2*a)
 print(root1 , "," , root2)
+
+
+temperature_celcius = input("What is the temparature?")
+temperature_fahrenhait = (int(temperature_celcius)*1.8 + 32)
+print(temperature_fahrenhait)
