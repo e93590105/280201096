@@ -11,6 +11,11 @@ else:
   if number1 < number3:
     print("The number which has the minimum value above these three numbers is" , number2)
   else:
-      print("The number which has the minimum value above these three numbers is" , number3)
+    if number2 < number3:
+      print("The number which has the minimum value above these three numbers is" , number2)
+    else:
+     print("The number which has the minimum value above these three numbers is" , number3)
+
+
 
 
