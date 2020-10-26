@@ -1,6 +1,6 @@
 x = int(input("Please input a number:"))
 
 if x >= 0:
-  print(x)
+  print("The absolute value of this number is" , x )
 else:
-  print(-x)
+  print("The absolute value of this number is" , -x)
