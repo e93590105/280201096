@@ -10,7 +10,7 @@ if number1 < number2:
 else:
   if number1 < number3:
     print("The number which has the minimum value above these three numbers is" , number2)
-    else:
+  else:
       print("The number which has the minimum value above these three numbers is" , number3)
 
 
