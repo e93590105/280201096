@@ -1,5 +1,5 @@
 gpa  = float(input("Please input your GPA:"))
-number_of_lectures  = float(input("Please input the number of lectures you have:"))
+number_of_lectures  = float(input("Please input the number of lectures you had:"))
 
 if gpa < 2.0:
   if number_of_lectures < 47:
