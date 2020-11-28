@@ -6,9 +6,13 @@ for i in range(numberOfStudents):
   mid2 = int(input("Midterm 2: "))
   final = int(input("Final: "))
   gradeList.append([mid1,mid2,final])
-print(gradeList)
 
 averageGrades = []
 for sub_grades in gradeList:
   averageGrades.append(sub_grades[0]*0.3 + sub_grades[1]*0.3 + sub_grades[2]*0.4)
-print(averageGrades)
+
+aaList = []
+for i in averageGrades:
+  if i >= 90:
+    aaList.append(i)
+print(aaList)
