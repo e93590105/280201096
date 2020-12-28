@@ -2,16 +2,13 @@ def PascalsTriangle(n):
   if n == 1:
     return [[1]]
   else:
-    triangle = [[1]]
     line = [1]
-    
-    previousLine = PascalsTriangle(n-1)
-    for i in range(len(previousLine)-1):
-      line.append(previousLine[i]+previousLine[i+1])
-      triangle.append(line) 
-      
+    allLines = PascalsTriangle(n-1)
+    lastLine = allLines[-1]
+    for i in range(len(lastLine)-1):
+      line.append(lastLine[i]+lastLine[i+1])
     line += [1]
-    
-    return line
+    allLines.append(line)
+    return allLines
 
 print(PascalsTriangle(4))
