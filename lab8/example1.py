@@ -5,4 +5,4 @@ def function(a_list):
   return summ*summ
 
 a_list = [12,-7,5,-89.4,3,27,56,57.3]
-print(function)
+print(function(a_list))
