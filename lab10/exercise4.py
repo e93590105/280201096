@@ -8,5 +8,3 @@ def PascalsTriangleLastLine(n):
       line.append(previousLine[i]+previousLine[i+1])
     line += [1]
     return line
-
-print(PascalsTriangleLastLine(6))
